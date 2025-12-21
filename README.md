@@ -43,6 +43,7 @@ npm run dev
 📦 Скрипты
 - npm run dev — запуск dev‑сервера
 - npm run build — сборка проекта
+- npm run format - форматирование кода с помощью Prettier
 - npm run lint — проверка кода ESLint
 
 # 🚫 No Clone License
