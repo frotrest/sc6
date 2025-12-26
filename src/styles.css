@@ -28,6 +28,12 @@
   transform: translateY(0);
 }
 
+@media (min-width: 768px) {
+  .header-fixed {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     padding-bottom: 20px;
