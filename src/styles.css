@@ -72,6 +72,7 @@
   width: 100px;
   height: 100px;
   border-radius: 30%;
+  object-fit: cover;
 }
 
 .logo__title {
@@ -330,7 +331,7 @@
 .news {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: url('./img/background.jpg') repeat center / auto;
+  background: url('./img/background.webp') repeat center / auto;
 }
 
 @media (max-width: 768px) {
@@ -429,6 +430,7 @@
   border-radius: 12px;
   width: 335px;
   height: 250px;
+  object-fit: cover;
 }
 
 @media (max-width: 1200px) {
@@ -620,6 +622,7 @@
 .description-card__img {
   width: 330px;
   height: 270px;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
@@ -660,7 +663,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url('./img/mapground.jpg') repeat center / auto;
+  background: url('./img/mapground.webp') repeat center / auto;
   filter: blur(1px);
   z-index: -1;
 }
@@ -750,6 +753,7 @@
   width: 100%;
   height: 245px;
   border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
@@ -843,7 +847,7 @@
 }
 
 .links {
-  background: url('./img/background.jpg') repeat center / auto;
+  background: url('./img/background.webp') repeat center / auto;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -905,6 +909,7 @@
 .link-card__img {
   width: 250px;
   height: auto;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
@@ -1333,4 +1338,67 @@
     overflow: hidden;
     height: 100%;
   }
+}
+
+.animate__animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+[data-animate] {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInUp {
+  animation-name: fadeInUp;
 }
