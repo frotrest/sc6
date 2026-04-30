@@ -7,16 +7,6 @@
       Київської області
     </title>
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -25,13 +15,14 @@
     <link rel="stylesheet" href="./icomoon/style.css" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
     <header class="header">
-      <section class="main-header">
+      <section class="main-header" data-animate="fadeIn">
         <div class="container main-header-content">
           <div class="logo">
             <img
-              src="./img/logo.gif"
+              src="./img/logo.webp"
               alt="logo-header"
               width="150"
               class="logo__img"
@@ -98,7 +89,7 @@
           </button>
         </div>
       </section>
-      <nav class="navbar">
+      <nav class="navbar" data-animate="fadeIn">
         <div class="container navbar-content">
           <a href="#" class="navbar-content__item">Головна</a>
           <a href="#" class="navbar-content__item">Про школу</a>
@@ -156,7 +147,7 @@
       <div class="container main-header-content">
         <div class="logo">
           <img
-            src="./img/logo.gif"
+            src="./img/logo.webp"
             alt="logo-header"
             width="150"
             class="logo__img"
@@ -199,9 +190,10 @@
           <div class="news-cards" data-animate="fadeInLeft">
             <div class="news-card">
               <img
-                src="./img/lecture.jpg"
+                src="./img/lecture.webp"
                 alt="lecture"
                 class="news-card__img"
+                loading="lazy"
               />
               <span class="news-card__date">17 Жовтня 2025</span>
               <div class="news-card--content">
@@ -218,7 +210,12 @@
               </div>
             </div>
             <div class="news-card">
-              <img src="./img/bus.jpg" alt="bus" class="news-card__img" />
+              <img
+                src="./img/bus.webp"
+                alt="bus"
+                class="news-card__img"
+                loading="lazy"
+              />
               <span class="news-card__date">29 Вересня 2025</span>
               <div class="news-card--content">
                 <h5 class="news-card--content__title">
@@ -236,9 +233,10 @@
             </div>
             <div class="news-card">
               <img
-                src="./img/cool-games.jpg"
+                src="./img/cool-games.webp"
                 alt="cool-games"
                 class="news-card__img"
+                loading="lazy"
               />
               <span class="news-card__date">19 Вересня 2025</span>
               <div class="news-card--content">
@@ -272,22 +270,25 @@
                 src="./img/student.webp"
                 alt="student"
                 class="description-card__img"
+                loading="lazy"
               />
               <h2 class="description-card__title">Зручний шлях до ліцею</h2>
             </div>
             <div class="description-card">
               <img
-                src="./img/teachers.jpg"
+                src="./img/teachers.webp"
                 alt="teachers"
                 class="description-card__img"
+                loading="lazy"
               />
               <h2 class="description-card__title">Вчителі, які завжди поруч</h2>
             </div>
             <div class="description-card">
               <img
-                src="./img/classroom.jpg"
+                src="./img/classroom.webp"
                 alt="classroom"
                 class="description-card__img"
+                loading="lazy"
               />
               <h2 class="description-card__title">
                 Сучасні та комфортні класи
@@ -304,9 +305,10 @@
           <div class="admin-cards">
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/director.jpg"
+                src="./img/administration/director.webp"
                 alt="director"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -319,9 +321,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/natalya.jpg"
+                src="./img/administration/natalya.webp"
                 alt="natalya"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -334,9 +337,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/maryna.jpg"
+                src="./img/administration/maryna.webp"
                 alt="maryna"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -349,9 +353,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/alla.jpg"
+                src="./img/administration/alla.webp"
                 alt="alla"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -364,9 +369,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/oleksandra.jpg"
+                src="./img/administration/oleksandra.webp"
                 alt="oleksandra"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -379,9 +385,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/dmytro.jpg"
+                src="./img/administration/dmytro.webp"
                 alt="dmytro"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -394,9 +401,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/svitlana.jpg"
+                src="./img/administration/svitlana.webp"
                 alt="svitlana"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -409,9 +417,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/kristina.jpg"
+                src="./img/administration/kristina.webp"
                 alt="kristina"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -424,9 +433,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/katya.jpg"
+                src="./img/administration/katya.webp"
                 alt="katya"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">Посада: Секретар</h6>
@@ -437,9 +447,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/viktoria.jpg"
+                src="./img/administration/viktoria.webp"
                 alt="viktoria"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -452,9 +463,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/valentyna.jpg"
+                src="./img/administration/valentyna.webp"
                 alt="valentyna"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -467,9 +479,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/darya.jpg"
+                src="./img/administration/darya.webp"
                 alt="darya"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -482,9 +495,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/irina.jpg"
+                src="./img/administration/irina.webp"
                 alt="irina"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">
@@ -497,9 +511,10 @@
             </div>
             <div class="admin-card" data-animate="fadeIn">
               <img
-                src="./img/administration/alina.jpg"
+                src="./img/administration/alina.webp"
                 alt="alina"
                 class="admin-card__img"
+                loading="lazy"
               />
               <div class="admin-card-content">
                 <h6 class="admin-card-content__podtitle">Посада: Медсестра</h6>
@@ -535,9 +550,10 @@
           <div class="link-cards" data-animate="fadeInLeft">
             <a href="https://mon.gov.ua/" target="_blank" class="link-card">
               <img
-                src="./img/links/mon.png"
+                src="./img/links/mon.webp"
                 alt="mon"
                 class="link-card__img first"
+                loading="lazy"
               />
               <h5 class="link-card__title">
                 Міністерство освіти та науки України
@@ -549,9 +565,10 @@
               class="link-card"
             >
               <img
-                src="./img/links/testportal.png"
+                src="./img/links/testportal.webp"
                 alt="testportal"
                 class="link-card__img"
+                loading="lazy"
               />
               <h5 class="link-card__title">
                 Український центр оцінювання якості освіти
@@ -559,9 +576,10 @@
             </a>
             <a href="https://pedpresa.com/" target="_blank" class="link-card">
               <img
-                src="./img/links/pedpresa.png"
+                src="./img/links/pedpresa.webp"
                 alt="pedpresa"
                 class="link-card__img"
+                loading="lazy"
               />
               <h5 class="link-card__title">Освіта в Україні та світі</h5>
             </a>
@@ -571,9 +589,10 @@
               class="link-card"
             >
               <img
-                src="./img/links/science.png"
+                src="./img/links/science.webp"
                 alt="science"
                 class="link-card__img"
+                loading="lazy"
               />
               <h5 class="link-card__title">
                 Управління освіти і науки Броварської міської ради Броварського
@@ -586,9 +605,10 @@
               class="link-card"
             >
               <img
-                src="./img/links/academy.png"
+                src="./img/links/academy.webp"
                 alt="academy"
                 class="link-card__img academy"
+                loading="lazy"
               />
               <h5 class="link-card__title">
                 Центр творчості дітей та юнацтва Київщини
@@ -600,9 +620,10 @@
               class="link-card"
             >
               <img
-                src="./img/links/kiev.png"
+                src="./img/links/kiev.webp"
                 alt="kiev"
                 class="link-card__img"
+                loading="lazy"
               />
               <h5 class="link-card__title">
                 Київський регіональний центр оцінювання якості освіти
@@ -614,9 +635,10 @@
               class="link-card"
             >
               <img
-                src="./img/links/test-academy.png"
+                src="./img/links/test-academy.webp"
                 alt="test-academy"
                 class="link-card__img test-academy"
+                loading="lazy"
               />
               <h5 class="link-card__title">
                 Мала академія наук учнівської молоді
@@ -633,9 +655,10 @@
             <div class="first-col">
               <div class="logo-footer">
                 <img
-                  src="./img/logo.gif"
+                  src="./img/logo.webp"
                   alt="logo-footer"
                   class="logo-footer__img"
+                  loading="lazy"
                 />
                 <h2 class="logo-footer__title">
                   Броварський ліцей № 6 Київської області
